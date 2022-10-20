@@ -1,0 +1,552 @@
+<html>
+
+<head>
+    <script src="https://kit.fontawesome.com/ca33e9e1fc.js" crossorigin="anonymous"></script>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <style>
+        .breadcrumb-item+.breadcrumb-item::before {
+            float: left;
+            padding-right: var(--bs-breadcrumb-item-padding-x);
+            color: orange;
+            font-weight: bold;
+            content: var(--bs-breadcrumb-divider, ">")
+        }
+
+        .star {
+            background-image: url(https://cdn.dsmcdn.com/web/production/rating-and-review-small-star-orange.svg);
+            transform: scale(1.5);
+            width: 25px;
+            height: 25px;
+            background-repeat: no-repeat;
+        }
+
+        .star-sm {
+            background-image: url(https://cdn.dsmcdn.com/web/production/rating-and-review-small-star-orange.svg);
+            transform: scale(1);
+            width: 25px;
+            height: 25px;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+
+<body class="bg-light">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light p-0">
+            <div class="container-fluid justify-content-end">
+                <ul style="font-size: 0.81rem" class="navbar-nav">
+                    <li class="nav-item me-3"><a class="nav-link" href="">İndirim Kuponlarım</a></li>
+                    <li class="nav-item me-3"><a class="nav-link" href="">Trendyol'da Satış Yap</a></li>
+                    <li class="nav-item me-3"><a class="nav-link" href="">Yardım ve Destek</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light p-0">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img style="width: 7.5rem;" src="https://cdn.dsmcdn.com/web/logo/ty-web.svg" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse">
+                    <div class="col-7 me-5">
+                        <div class="d-flex form-inputs">
+                            <input class="form-control" type="text"
+                                placeholder="Aradığınız ürün, kategori veya markayı yazınız">
+                            <i class="bx bx-search"></i>
+                        </div>
+                    </div>
+                    <ul class="navbar-nav col-5">
+                        <li class="nav-item me-3"><a class="nav-link" href=""><i class="fa-solid fa-user-tie"></i>
+                                Hesabım</a></li>
+                        <li class="nav-item me-3"><a class="nav-link" href=""><i class="fa-solid fa-heart"></i>
+                                Favorilerim</a></li>
+                        <li class="nav-item me-3"><a class="nav-link" href=""><i
+                                    class="fa-solid fa-cart-shopping"></i></i> Sepetim</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light p-0">
+            <div class="container-fluid">
+                <ul class="navbar-nav">
+                    <li class="nav-item me-3"><a class="nav-link" href="">Kadın</a></li>
+                    <li class="nav-item me-3"><a class="nav-link" href="">Erkek</a></li>
+                    <li class="nav-item me-3"><a class="nav-link" href="">Çocuk</a></li>
+                    <li class="nav-item me-3"><a class="nav-link" href="">Anne & Çocuk</a></li>
+                    <li class="nav-item me-3"><a class="nav-link" href="">Ev & Mobilya</a></li>
+                    <li class="nav-item me-3"><a class="nav-link" href="">Süpermarket</a></li>
+                    <li class="nav-item me-3"><a class="nav-link" href="">Kozmetik</a></li>
+                    <li class="nav-item me-3"><a class="nav-link" href="">Elektronik</a></li>
+                    <li class="nav-item me-3"><a class="nav-link" href="">Ayakkabı & Çanta</a></li>
+                    <li class="nav-item me-3"><a class="nav-link" href="">Saat & Aksesuar</a></li>
+                    <li class="nav-item me-3"><a class="nav-link" href="">Spor & Outdoor</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div>
+        <hr class="m-0">
+    </div>
+    <div class="container mt-2 mb-2">
+        <nav aria-label="breadcrumb">
+            <ul class="breadcrumb">
+                <li class="breadcrumb-item active" aria-current="page">Anasayfa</li>
+                <li class="breadcrumb-item active" aria-current="page">Elektronik</li>
+                <li class="breadcrumb-item active" aria-current="page">Telefon</li>
+                <li class="breadcrumb-item active" aria-current="page">Cep Telefonu</li>
+                <li class="breadcrumb-item active" aria-current="page">Akıllı Cep Telefonu</li>
+                <li class="breadcrumb-item active" aria-current="page">Apple Akıllı Cep Telefonu</li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-9 border rounded p-4">
+                <div class="row">
+                    <div class="col-5 border rounded">
+                        <div class="position-relative">
+                            <div class="position-absolute top-0 start-0" style="z-index: 1;">
+                                <div class="rounded bg-primary m-1" style="width: 5rem;">
+                                    <b class="text-center text-white text-wrap badge p-2">KARGO BEDAVA</b>
+                                </div>
+                                <div class="rounded bg-secondary m-1" style="width: 5rem;">
+                                    <b class="text-center text-white text-wrap badge p-2">KURUMSAL FATURA</b>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="https://cdn.dsmcdn.com/ty539/product/media/images/20220920/21/177587407/574173145/2/2_org_zoom.jpg"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://cdn.dsmcdn.com/ty537/product/media/images/20220920/21/177587413/574173145/2/2_org_zoom.jpg"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://cdn.dsmcdn.com/ty537/product/media/images/20220920/21/177587419/574173145/2/2_org_zoom.jpg"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-7">
+                        <div class="row">
+                            <span class="h5 d-block mb-0">Apple iPhone 14 Pro Max 1TB Altın</span>
+                            <span style="font-size: 0.8rem;">Satıcı:<a class="text-decoration-none ms-1" href="">Bzm
+                                    Elektronik</a></span>
+                        </div>
+                        <div class="row mt-2 mb-2">
+                            <span style="font-size: 0.8rem;">Henüz Yorum Yazılmamış</span>
+                        </div>
+                        <div class="row d-inline-flex p-2">
+                            <span class="h4 text-danger rounded border border-danger">15.455 TL</span>
+                        </div>
+                        <div class="row m-0">
+
+                            <a style="font-size: 0.8rem;" class="text-decoration-none text-end text-secondary"
+                                href=""><i class="fa-solid fa-bookmark"></i> Koleksiyona Ekle</a>
+                        </div>
+                        <div class="row pe-2 ps-2 mt-2">
+                            <hr>
+                        </div>
+                        <div class="row mt-2">
+                            <div>
+                                <b>Dahili Hafıza</b>
+                            </div>
+                            <div class="d-inline-flex">
+                                <a href=""
+                                    class="text-secondary rounded border border-danger text-decoration-none p-1 m-1">128
+                                    GB</a>
+                                <a href=""
+                                    class="text-secondary rounded border border-danger text-decoration-none p-1 m-1">256
+                                    GB</a>
+                                <a href=""
+                                    class="text-secondary rounded border border-danger text-decoration-none p-1 m-1">512
+                                    GB</a>
+                                <a href=""
+                                    class="text-secondary rounded border border-danger text-decoration-none p-1 m-1">1
+                                    TB</a>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div>
+                                <b>Renk</b>
+                            </div>
+                            <div class="d-inline-flex">
+                                <span class="rounded border border-danger p-1 m-1"><a href=""><img style="width:2rem;"
+                                            src="https://cdn.dsmcdn.com/mnresize/128/192/ty539/product/media/images/20220920/22/177588081/574173138/2/2_org_zoom.jpg"
+                                            alt=""></a></span>
+                                <span class="rounded border border-danger p-1 m-1"><a href=""><img style="width:2rem;"
+                                            src="https://cdn.dsmcdn.com/mnresize/128/192/ty539/product/media/images/20220920/22/177588081/574173138/2/2_org_zoom.jpg"
+                                            alt=""></a></span>
+                                <span class="rounded border border-danger p-1 m-1"><a href=""><img style="width:2rem;"
+                                            src="https://cdn.dsmcdn.com/mnresize/128/192/ty539/product/media/images/20220920/22/177588081/574173138/2/2_org_zoom.jpg"
+                                            alt=""></a></span>
+                                <span class="rounded border border-danger p-1 m-1"><a href=""><img style="width:2rem;"
+                                            src="https://cdn.dsmcdn.com/mnresize/128/192/ty539/product/media/images/20220920/22/177588081/574173138/2/2_org_zoom.jpg"
+                                            alt=""></a></span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <span style="font-size: 0.8rem;" class="text-danger mt-2">Son 1 ürün</span>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="d-inline-fle">
+                                <button style="height: 3.5rem; width: 85%;" class="btn btn-danger me-3">Sepete
+                                    Ekle</button>
+                                <button style="height: 3.5rem; width: 3.5rem;" class="btn btn-outline-secondary"><i
+                                        class="fa-solid fa-heart"></i></button>
+                            </div>
+                        </div>
+                        <div class="row justify-content-between mt-2">
+                            <div class="col-6 text-start">
+                                <span style="font-size: 0.7rem;"><i class="fa-solid fa-truck"></i> <b>Tahmini Kargoya
+                                        Teslim:</b> 2 gün içinde</span>
+                            </div>
+                            <div class="col-6 text-end">
+                                <span style="font-size: 0.7rem;"><i class="fa-solid fa-heart"></i> 756 favori</span>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <span style="font-size: 0.8rem" class="d-block"><b>Öne Çıkan Bilgiler</b></span>
+                            <div class="row">
+                                <ul style="justify-content: space-between; font-size: 0.8rem;" class="d-flex flex-wrap">
+                                    <li class="d-inline-flex w-50">
+                                        <span style="width:45%" class="">Garanti Tipi</span>
+                                        <span style="width: 5%;">:</span>
+                                        <span style="width:45%; overflow: hidden; white-space: nowrap;"><b>Apple Türkiye
+                                                Garantisi</b></span>
+                                    </li>
+                                    <li class="d-inline-flex w-50 mt-1">
+                                        <span style="width:45%" class="">RAM Kapasitesi</span>
+                                        <span style="width: 5%;">:</span>
+                                        <span style="width:45%; overflow: hidden; white-space: nowrap;"><b>6
+                                                GB</b></span>
+                                    </li>
+                                    <li class="d-inline-flex w-50 mt-1">
+                                        <span style="width:45%" class="">Renk</span>
+                                        <span style="width: 5%;">:</span>
+                                        <span
+                                            style="width:45%; overflow: hidden; white-space: nowrap;"><b>Mor</b></span>
+                                    </li>
+                                    <li class="d-inline-flex w-50 mt-1">
+                                        <span style="width:45%" class="">Model</span>
+                                        <span style="width: 5%;">:</span>
+                                        <span style="width:45%; overflow: hidden; white-space: nowrap;"><b>Iphone 14 Pro
+                                                Max</b></span>
+                                    </li>
+                                    <li class="d-inline-flex w-50 mt-1">
+                                        <span style="width:45%" class="">Ekran Boyutu</span>
+                                        <span style="width: 5%;">:</span>
+                                        <span style="width:45%; overflow: hidden; white-space: nowrap;"><b>6.5'' -
+                                                7''</b></span>
+                                    </li>
+                                    <li class="d-inline-flex w-50 mt-1">
+                                        <span style="width:45%" class="">Dokunmatik Ekran</span>
+                                        <span style="width: 5%;">:</span>
+                                        <span
+                                            style="width:45%; overflow: hidden; white-space: nowrap;"><b>Var</b></span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div>
+                                <ul class="list">
+                                    <li style="font-size: 0.8rem;">15 gün içinde ücretsiz iade. Detaylı bilgi için <a
+                                            class="text-secondary" href="">tıklayın.</a></li>
+                                    <li style="font-size: 0.8rem;">Bu ürün <a class="text-secondary" href="">Sibs</a>
+                                        tarafından gönderilecektir.</li>
+                                    <li style="font-size: 0.8rem;">Bu üründen en fazla 2 adet sipariş verilebilir. 2
+                                        adetin üzerindeki siparişleri Trendyol iptal etme hakkını saklı tutar.</li>
+                                    <li style="font-size: 0.8rem;">Kampanya fiyatından satılmak üzere 5 adetten az stok
+                                        bulunmaktadır.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div>
+                                <button class="btn btn-light btn-outline-dark w-100">Tüm Ürün Özellikleri</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="rounded border mb-2">
+                    <p style="font-size: 0.9rem;" class="fw-bold m-2">Kurumsal Fatura</p>
+                    <p class="fw-bold m-2" style="font-size: 0.7rem;">Bu ürünü kurumsal fatura ile satın alabilirsiniz.
+                        <a href=""> > İncele</a>
+                    </p>
+                </div>
+                <div class="rounded border mb-2">
+                    <p style="font-size: 0.9rem;" class="fw-bold m-2">Ürünün Kampanyaları</p>
+                    <hr>
+                    <p class="fw-bold m-2" style="font-size: 0.7rem;">75 TL ve Üzeri Kargo Bedava</a></p>
+                </div>
+                <div class="rounded border mb-2">
+                    <div class="p-2">
+                        <a class="text-decoration-none text-primary" href="">Sibs</a>
+                        <span class="badge bg-success">9.5</span>
+                        <i style="content: \e9a7;"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2>Ürün Değerlendirmeleri</h2>
+                <div class="border rounded">
+                    <div class="row mt-3 mb-3">
+                        <div class="col-12 m-1">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="d-inline-flex ">
+                                        <h2 class="d-inline">5.0</h2>
+                                        <div class="d-inline-flex w-100 mt-3 ms-3">
+                                            <div class="star d-inline"></div>
+                                            <div class="star d-inline"></div>
+                                            <div class="star d-inline"></div>
+                                            <div class="star d-inline"></div>
+                                            <div class="star d-inline"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <span class="d-inline-flex text-start mt-2">1 Değerlendirme | 0 Yorum</span>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row m-0 p-0">
+                        <hr class="">
+                    </div>
+                    <div class="row m-2 p-0">
+                        <div class="col-12 mb-3 m-0 p-0">
+                            <div class="rounded border p-3">
+                                <div class="d-inline-flex">
+                                    <div class="d-inline-flex w-100 mt-3">
+                                        <span class="me-4">Ahmet Veli</span>
+                                        <div class="star-sm d-inline"></div>
+                                        <div class="star-sm d-inline"></div>
+                                        <div class="star-sm d-inline"></div>
+                                        <div class="star-sm d-inline"></div>
+                                        <div class="star-sm d-inline"></div>
+                                    </div>
+                                </div>
+                                <hr class="p-0">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, ipsum.</p>
+                            </div>
+                        </div>
+                        <div class="col-12 mb-3 m-0 p-0">
+                            <div class="rounded border p-3">
+                                <div class="d-inline-flex">
+                                    <div class="d-inline-flex w-100 mt-3">
+                                        <span class="me-4">Ezgi Gül</span>
+                                        <div class="star-sm d-inline"></div>
+                                        <div class="star-sm d-inline"></div>
+                                        <div class="star-sm d-inline"></div>
+                                    </div>
+                                </div>
+                                <hr class="p-0">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, ipsum.</p>
+                            </div>
+                        </div>
+                        <div class="col-12 mb-3 m-0 p-0">
+                            <div class="rounded border p-3">
+                                <div class="d-inline-flex">
+                                    <div class="d-inline-flex w-100 mt-3">
+                                        <span class="me-4">Fatma Zengin</span>
+                                        <div class="star-sm d-inline"></div>
+                                        <div class="star-sm d-inline"></div>
+                                        <div class="star-sm d-inline"></div>
+                                        <div class="star-sm d-inline"></div>
+                                    </div>
+                                </div>
+                                <hr class="p-0">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, ipsum.</p>
+                            </div>
+                        </div>
+                        <div class="col-12 mb-3 m-0 p-0">
+                            <div class="rounded border p-3">
+                                <div class="d-inline-flex">
+                                    <div class="d-inline-flex w-100 mt-3">
+                                        <span class="me-4">Ali Kırgız</span>
+                                        <div class="star-sm d-inline"></div>
+                                    </div>
+                                </div>
+                                <hr class="p-0">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, ipsum.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="col-12">
+                    <h3>Ürün Bilgileri</h3>
+                </div>
+                <div class="row border rounded">
+                    <div class="col-2">
+                        <img style="width: 170px"
+                            src="https://cdn.dsmcdn.com/ty539/product/media/images/20220920/22/177588081/574173138/2/2_org_zoom.jpg"
+                            alt="">
+                    </div>
+                    <div class="col-10">
+                        <div class="mt-3 d-flex justify-content-between">
+                            <span class="h4 text-start">Apple iPhone 14 Pro Max 1TB Derin Mor</span>
+                            <a href="" class="text-end text-secondary text-decoration-none"><i
+                                    class="fa-regular fa-message"></i> Geri Bildirim</a>
+                        </div>
+                        <ul>
+                            <li class="text-secondary">Lorem ipsum dolor sit amet consectetur.</li>
+                            <li class="text-secondary">Lorem ipsum dolor sit amet consectetur.</li>
+                            <li class="text-secondary">Lorem ipsum dolor sit amet consectetur.</li>
+                            <li class="text-secondary">Lorem ipsum dolor sit amet consectetur.</li>
+                            <li class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo,
+                                fugit amet incidunt officia id consequuntur, vel, est eius odit corporis sequi fuga
+                                possimus. Iusto, modi rerum.</li>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-12">
+                            <ul style="font-size: 0.8rem;"
+                                class="list-unstyled justify-content-between d-flex flex-wrap">
+                                <li style="width:45%" class="me-2 mb-2">
+                                    <div class="d-flex justify-content-between bg-white rounded p-3">
+                                        <span class="text-start">Garanti Tipi</span>
+                                        <span class="text-end"><b>Apple Türkiye Garantisi</b></span>
+                                    </div>
+                                </li>
+                                <li style="width:45%" class="me-2 mb-2">
+                                    <div class="d-flex justify-content-between bg-white rounded p-3">
+                                        <span class="text-start">Renk</span>
+                                        <span class="text-end"><b>Mor</b></span>
+                                    </div>
+                                </li>
+                                <li style="width:45%" class="me-2 mb-2">
+                                    <div class="d-flex justify-content-between bg-white rounded p-3">
+                                        <span class="text-start">Ekran Boyut Aralığı</span>
+                                        <span class="text-end"><b>6.5'' - 7''</b></span>
+                                    </div>
+                                </li>
+                                <li style="width:45%" class="me-2 mb-2">
+                                    <div class="d-flex justify-content-between bg-white rounded p-3">
+                                        <span class="text-start">Arka Kamera Sayısı</span>
+                                        <span class="text-end"><b>3</b></span>
+                                    </div>
+                                </li>
+                                <li style="width:45%" class="me-2 mb-2">
+                                    <div class="d-flex justify-content-between bg-white rounded p-3">
+                                        <span class="text-start">Batarya Kapasitesi Aralığı</span>
+                                        <span class="text-end"><b>4000-4500 mAh</b></span>
+                                    </div>
+                                </li>
+                                <li style="width:45%" class="me-2 mb-2">
+                                    <div class="d-flex justify-content-between bg-white rounded p-3">
+                                        <span class="text-start">Dahili Hafıza
+                                        </span>
+                                        <span class="text-end"><b>1 TB</b></span>
+                                    </div>
+                                </li>
+                                <li style="width:45%" class="me-2 mb-2">
+                                    <div class="d-flex justify-content-between bg-white rounded p-3">
+                                        <span class="text-start">Renk</span>
+                                        <span class="text-end"><b>Mor</b></span>
+                                    </div>
+                                </li>
+                                <li style="width:45%" class="me-2 mb-2">
+                                    <div class="d-flex justify-content-between bg-white rounded p-3">
+                                        <span class="text-start">Renk</span>
+                                        <span class="text-end"><b>Mor</b></span>
+                                    </div>
+                                </li>
+                                <li style="width:45%" class="me-2 mb-2">
+                                    <div class="d-flex justify-content-between bg-white rounded p-3">
+                                        <span class="text-start">Renk</span>
+                                        <span class="text-end"><b>Mor</b></span>
+                                    </div>
+                                </li>
+                                <li style="width:45%" class="me-2 mb-2">
+                                    <div class="d-flex justify-content-between bg-white rounded p-3">
+                                        <span class="text-start">Renk</span>
+                                        <span class="text-end"><b>Mor</b></span>
+                                    </div>
+                                </li>
+                                <li style="width:45%" class="me-2 mb-2">
+                                    <div class="d-flex justify-content-between bg-white rounded p-3">
+                                        <span class="text-start">Renk</span>
+                                        <span class="text-end"><b>Mor</b></span>
+                                    </div>
+                                </li>
+                                <li style="width:45%" class="me-2 mb-2">
+                                    <div class="d-flex justify-content-between bg-white rounded p-3">
+                                        <span class="text-start">Renk</span>
+                                        <span class="text-end"><b>Mor</b></span>
+                                    </div>
+                                </li>
+                                <li style="width:45%" class="me-2 mb-2">
+                                    <div class="d-flex justify-content-between bg-white rounded p-3">
+                                        <span class="text-start">Renk</span>
+                                        <span class="text-end"><b>Mor</b></span>
+                                    </div>
+                                </li>
+                                <li style="width:45%" class="me-2 mb-2">
+                                    <div class="d-flex justify-content-between bg-white rounded p-3">
+                                        <span class="text-start">Renk</span>
+                                        <span class="text-end"><b>Mor</b></span>
+                                    </div>
+                                </li>
+                                <li style="width:45%" class="me-2 mb-2">
+                                    <div class="d-flex justify-content-between bg-white rounded p-3">
+                                        <span class="text-start">Renk</span>
+                                        <span class="text-end"><b>Mor</b></span>
+                                    </div>
+                                </li>
+                                <li style="width:45%" class="me-2 mb-2">
+                                    <div class="d-flex justify-content-between bg-white rounded p-3">
+                                        <span class="text-start">Renk</span>
+                                        <span class="text-end"><b>Mor</b></span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
